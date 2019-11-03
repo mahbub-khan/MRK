@@ -773,8 +773,6 @@
 
 <script type="text/javascript" src="js/custom.js"></script>
 
-<script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
-
 <script>
     $(function(){
         $(".text-type").typed({
@@ -890,17 +888,6 @@
 			600);
 	});
 	
-	/*=============Code for Masonry Gallery ==============*/
-    var grid = document.querySelector('.grid');
-    var jQuerygrid = jQuery('.grid').isotope({
-        itemSelector: '.element-item'
-    }); 
-    var iso = jQuerygrid.data('isotope');
-    jQuerygrid.isotope( 'reveal', iso.items );
-
-    imagesLoaded(grid, function(){
-        iso.layout();
-    });
 
 </script>
 </body>
